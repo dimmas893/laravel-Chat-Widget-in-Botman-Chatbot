@@ -17,7 +17,7 @@ class BotManChatController extends Controller
         $botman = app('botman');
         $botman->hears('{message}', function ($botman, $message) {
             if ($message == 'hello') {
-                $this->askName($botman);
+                $this->askInfo($botman);
             } else {
                 $botman->reply("Type 'hello' for demo ...");
             }

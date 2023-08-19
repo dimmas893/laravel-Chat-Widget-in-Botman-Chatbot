@@ -16,7 +16,7 @@
 <script>
     var botmanWidget = {
         aboutText: 'Botman',
-        introMessage: "Hello! How may we help you?"
+        introMessage: "halo, ada yang bisa dibantu ?"
     };
 </script>
 
